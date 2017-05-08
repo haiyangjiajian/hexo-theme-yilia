@@ -2,14 +2,16 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  编程: /categories/编程/
+  读书: /categories/读书/
+  工具: /categories/工具/
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/haiyangjiajian"
+  weibo: "http://weibo.com/oceanandsea?refer_flag=1001030101_&is_all=1"
+  rss: "http://haiyangjiajian.com/atom.xml"
+  #zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -17,7 +19,7 @@ subnav:
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  #mail: "developsupport@163.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -45,21 +47,21 @@ open_in_new: false
 # 请在需要打赏的文章的md文件头部，设置属性reward: true
 
 # 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 1
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '谢谢打赏'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
 alipay: 
 # 微信二维码图片地址
 weixin: 
 
 # Miscellaneous
-baidu_analytics: ''
-google_analytics: ''
+baidu_analytics: 'cfb40a360dc5723b5f8f6c5767e37b5b'
+google_analytics: 'UA-96992926-1'
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: /assets/img/avatar.jpg
 
 #是否开启分享
 share_jia: true
@@ -87,15 +89,11 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  friends: '推荐'
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  mindhacks: http://mindhacks.cn/
+  
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: A forever student on CS. Love technology and badminton <br> mail:developsupport@163.com
